@@ -1,0 +1,15 @@
+{
+    "components": [
+        {
+            "important": true,
+            "uid": "net.minecraft",
+            "version": "%minecraft"
+        },
+        {
+            "important": true,
+            "uid": "net.fabricmc.fabric-loader",
+            "version": "%fabric"
+        }
+    ],
+    "formatVersion": 1
+}
