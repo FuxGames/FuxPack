@@ -97,6 +97,10 @@ file = "config/yosbr/options.txt"
 hash = "13ac21616159c77726a9123011009b7cf146794d8f44d9366a654961e5767bd3"
 
 [[files]]
+file = "instance.au.cfg"
+hash = "7f507f73e591e9bd01967f55ab4df74fcb84e2b5161a720f194382efae0cf0e1"
+
+[[files]]
 file = "mods/advancementinfo.pw.toml"
 hash = "e6ee4e0303ca4666aa8f53f1920d1abf23c00a2c197edac0ad246812cb329493"
 metafile = true
@@ -183,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "a0fe34e6203463d22149437fcd4b0ace68d705850b4b4c57bc4a25fa62660eef"
+hash = "7774e13e673343f005ac01516e384822c80277749664be37b5f0169fa12fe97c"
 metafile = true
 
 [[files]]
@@ -198,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "bb8660a03707dd2e0f3a44cebe34d73d06cf68c45353de35caa0d917c5c8fc59"
+hash = "4b0f375326fb7bf9b4f2cce24896a06bb61b423ab76695e024d8085852fa2d78"
 metafile = true
 
 [[files]]
@@ -293,7 +297,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "04466a6b17510266c4faa1963f08e295ea89e2148e4f707315040deddbe28f6c"
+hash = "417c17744d231db3a2e6df8fb4c5bff09eaccbfff6bd2abcfb5314b131ccfa09"
 metafile = true
 
 [[files]]
@@ -343,7 +347,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "e48980b4859b5e7bdef23175814612fb970e80b7bf5f104d9b0936b074e0d77a"
+hash = "a8d044706391933f47fbe36eca6ec3bd058522f4fb976028f4884149d0e9f344"
 metafile = true
 
 [[files]]
