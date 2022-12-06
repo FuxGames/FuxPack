@@ -130,7 +130,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "be7cd5bb98612bff05b734b897003c56dca3d943901fc4d59f2b1a86a5ee0771"
+hash = "335b6f0ea36f58f469be5238172a3b05512c0030ea47e9f01567bdb482ef5a03"
 metafile = true
 
 [[files]]
@@ -195,7 +195,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "7774e13e673343f005ac01516e384822c80277749664be37b5f0169fa12fe97c"
+hash = "34937c108a74455347f53276aedc8a670dac3c430ef23392487a75868a6e6091"
 metafile = true
 
 [[files]]
@@ -210,12 +210,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "4b0f375326fb7bf9b4f2cce24896a06bb61b423ab76695e024d8085852fa2d78"
+hash = "846adee90944eb683d1f96bc93ee7c1e3844b6a9bfc75862128bf2dd3908f883"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "5e0fb026c7bfa446e3398b6297ff4a7223f8b423a829a8543d78174b83063edf"
+hash = "de87fd5c684c0ca615f880ffe1df3c4842b82d343b1d8479035ac228c3c6934b"
 metafile = true
 
 [[files]]
@@ -225,7 +225,7 @@ metafile = true
 
 [[files]]
 file = "mods/ferritecore-fabric.pw.toml"
-hash = "90934a8f07aad60a6a696e2b63db60f4aa0a5439b89fea95fcd0a100d526da6b"
+hash = "1dae1ed95575e8248b9fa840f1a7c22d68c86dfc3f94a199a4115e2b12d5adc0"
 metafile = true
 
 [[files]]
@@ -240,7 +240,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "21335969c13c818972df48e0e3ec2728782af71610eba470850388459d1a43ab"
+hash = "5fe18fb48f6a7b4026cef732c461da12984e19cffbcafff1f410bd4ecdf1e45a"
 metafile = true
 
 [[files]]
@@ -260,7 +260,7 @@ metafile = true
 
 [[files]]
 file = "mods/language-reload.pw.toml"
-hash = "105a414e6b2019d5040fe59eab0179515b42c76f3a58aade0b785d732b9da188"
+hash = "6755fe1c119d5272cdac17beea720d59b43a72bc660ba75017fe8f1af4839021"
 metafile = true
 
 [[files]]
@@ -340,12 +340,12 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "14382dc7503db6e6e02eff91f0935b3aa8b37466fa6d2e949f3c66b8c611f5df"
+hash = "87e71b5daeb15cbe28c108fe2dae85a61997bd644f53affb69b77c314611dc0e"
 metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.pw.toml"
-hash = "b1c480e06288979f13fe1e06bed91ddce28df42b01ee39a6ed90de5ea9fa06d8"
+hash = "4cc36bb8bb222653a747e567cedc47d2c2afc67dd70c1dff1fe9765ef43576fa"
 metafile = true
 
 [[files]]
@@ -355,7 +355,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "a8d044706391933f47fbe36eca6ec3bd058522f4fb976028f4884149d0e9f344"
+hash = "75c67bdc34970afb1cbdd47231952f1592bda34eb0e2c90c1aaf395baac191e4"
 metafile = true
 
 [[files]]
@@ -370,12 +370,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "033249ec4b307d48fa1ce8ae2ea39d13355cd94580a90b9dc422de2890a7b179"
+hash = "9f358b50737609e61b3fa7eeeb2d59294dd42b9c5977a86aabaca00ed5af1e6d"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "a357191187a74983c7bd9e8f5cc7efddb15929031b989858a1182265f4e6be0f"
+hash = "21d4fa50f7fc8c1be39e6575941c1ff50cc9e9c64cd0c594b52c713c81c4d579"
 metafile = true
 
 [[files]]
