@@ -93,6 +93,14 @@ file = "config/yosbr/config/tr7zwDonorSettings.json"
 hash = "ef73ff0fcd6f7e7f3727f493ab61fdc8a65d710475426a55f72eb772ef0ed309"
 
 [[files]]
+file = "config/yosbr/config/xaerominimap.txt"
+hash = "5f60325504ed1c87697036574a581882b92a18f89e4f7285d0242cb8d9cd1b76"
+
+[[files]]
+file = "config/yosbr/config/xaeroworldmap.txt"
+hash = "5f60325504ed1c87697036574a581882b92a18f89e4f7285d0242cb8d9cd1b76"
+
+[[files]]
 file = "config/yosbr/options.txt"
 hash = "13ac21616159c77726a9123011009b7cf146794d8f44d9366a654961e5767bd3"
 
