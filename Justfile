@@ -5,13 +5,17 @@ fabric := `grep ^fabric pack.toml | cut -d\  -f3 | tr -d \"`
 
 dir := `mktemp -d`
 
-default: modrinth multimc autoupdate
+default: splash modrinth multimc autoupdate
+
+splash:
+        "-i" config/isxander-main-menu-credits.json sed -E "s/{{name}} [0-9.]+/{{name}} {{version}}/"
+        packwiz refresh
 
 alias mr := modrinth
 alias mm := multimc
 alias au := autoupdate
 
-modrinth:
+modrinth: splash
         packwiz modrinth export
 
 multimc: modrinth
@@ -22,7 +26,7 @@ multimc: modrinth
         mv {{dir}}/overrides {{dir}}/{{name}}-{{version}}/.minecraft
         home=`pwd` && cd {{dir}} && zip -9r $home/{{name}}-{{version}}.zip {{name}}-{{version}}
 
-autoupdate:
+autoupdate: splash
         mkdir -p {{dir}}/{{name}}AU/.minecraft
         sed "s/%name/{{name}}/" instance.au.cfg > {{dir}}/{{name}}AU/instance.cfg
         sed "s/%minecraft/{{minecraft}}/" mmc-pack.json | sed "s/%fabric/{{fabric}}/" > {{dir}}/{{name}}AU/mmc-pack.json
