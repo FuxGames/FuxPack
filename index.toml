@@ -13,12 +13,8 @@ file = "config/debugify.json"
 hash = "5bcbe08077e445bca4c0f3d46e18cf8504ebb8b8fdc66499cec5e60e33401e0b"
 
 [[files]]
-file = "config/fabric_loader_dependencies.json"
-hash = "2c61ff627748d803f5a7a7b676dbeb74b99bf38831c37f9d379665e35f02731e"
-
-[[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "6b9d69d1a64f72abc374eaba9ab8a5e7f7b3e29a3b25e5f39a95f6fb116b08a2"
+hash = "37fe87a70277f50ba5c61f8c6d5500be4a81ebd25a172945124806663a97d05b"
 
 [[files]]
 file = "config/modmenu.json"
@@ -102,7 +98,7 @@ hash = "5f60325504ed1c87697036574a581882b92a18f89e4f7285d0242cb8d9cd1b76"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "13ac21616159c77726a9123011009b7cf146794d8f44d9366a654961e5767bd3"
+hash = "5f038e1b778c7d0ed3a6ea3cbe2d40bb648e05838d30201094d45492a44fd234"
 
 [[files]]
 file = "instance.au.cfg"
@@ -380,7 +376,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "c6018049883190dee50c5a5ca7550142dd7578254e27cb4214b0dddeecdfe4dc"
+hash = "fe29fcc69744fa90f4fd35890cc44033d1b5bca0e0d45cb40c89250eabad6ab3"
 metafile = true
 
 [[files]]
