@@ -7,7 +7,7 @@ performance improvements.
 
 ### Client
 
-Download the latest Release's `zip` file and import it into MultiMC.
+Download the latest Release's `FuxPackAU.zip` file and import it into Prism Launcher.
 
 ### Server
 
