@@ -32,3 +32,6 @@ autoupdate: splash
         sed "s/%minecraft/{{minecraft}}/" mmc-pack.json | sed "s/%fabric/{{fabric}}/" > {{dir}}/{{name}}AU/mmc-pack.json
         curl -Lo {{dir}}/{{name}}AU/.minecraft/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
         home=`pwd` && cd {{dir}} && rm -f $home/{{name}}AU.zip && zip -X9r $home/{{name}}AU.zip {{name}}AU
+
+clean:
+        rm -f *.zip *.mrpack
