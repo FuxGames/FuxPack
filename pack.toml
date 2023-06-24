@@ -1,12 +1,12 @@
 name = "FuxPack"
 author = "Fux Games"
-version = "0.1.4"
+version = "0.1.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "cb79e7bd52bd129947ac4e02fe19d386e012bc0ac64e6e59cd89d400e4fd92e1"
+hash = "b12fe48d9a27431d8d7282c0b2f91b1b6d4d02689cf0c95c1c36953e4b28433f"
 
 [versions]
 fabric = "0.14.19"
