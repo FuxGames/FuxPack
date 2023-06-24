@@ -2,3 +2,4 @@ README.md
 Justfile
 instance.cfg
 mmc-pack.json
+.github
