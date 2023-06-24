@@ -11,7 +11,7 @@ jobs:
           submodules: recursive
       - uses: extractions/setup-just@v1
       - uses: actions/setup-go@v4
-      - run: go install packwiz@latest
+      - run: go install github.com/packwiz/packwiz@latest
       - uses: SebRollen/toml-action@v1.0.2
         id: version
         with:
