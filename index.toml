@@ -220,6 +220,11 @@ hash = "786d04a7265363d02e03aad138addc51983475f9e32f9a13194f157289cfd38a"
 metafile = true
 
 [[files]]
+file = "mods/fastquit.pw.toml"
+hash = "aab96d4fafa2b866302ef527e57dce53d43455b324ca233cb7e977e37ada70ba"
+metafile = true
+
+[[files]]
 file = "mods/ferritecore-fabric.pw.toml"
 hash = "1dae1ed95575e8248b9fa840f1a7c22d68c86dfc3f94a199a4115e2b12d5adc0"
 metafile = true
