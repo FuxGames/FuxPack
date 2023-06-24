@@ -1,0 +1,24 @@
+name: CI
+
+on: push
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - uses: extractions/setup-just@v1
+      - uses: actions/setup-go@v4
+      - run: go install packwiz
+      - uses: SebRollen/toml-action@v1.0.2
+        id: version
+        with:
+          file: pack.toml
+          field: version
+      - run: just
+      - uses: actions/upload-artifact@v3
+        with:
+          name: FuxPack-{{steps.version.outputs.value}}.mrpack
+          path: FuxPack-{{steps.version.outputs.value}}.mrpack
