@@ -14,13 +14,12 @@ jobs:
       - run: go install github.com/packwiz/packwiz@latest
       - run: curl -Lo /usr/local/bin/-i https://raw.githubusercontent.com/pixelcmtd/-i/daddy/-i
       - run: chmod +x /usr/local/bin/-i
-      - uses: SebRollen/toml-action@v1.0.2
-        id: version
-        with:
-          file: pack.toml
-          field: version
       - run: just
       - uses: actions/upload-artifact@v3
         with:
-          name: FuxPack-{{steps.version.outputs.value}}.mrpack
-          path: FuxPack-{{steps.version.outputs.value}}.mrpack
+          name: FuxPack.mrpack
+          path: FuxPack-*.mrpack
+      - uses: actions/upload-artifact@v3
+        with:
+          name: FuxPackAU.zip
+          path: FuxPackAU.zip
