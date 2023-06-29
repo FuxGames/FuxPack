@@ -1,13 +1,13 @@
 name = "Enhanced Block Entities"
-filename = "enhancedblockentities-0.8+1.19.3.jar"
+filename = "enhancedblockentities-0.9+1.19.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f8a0b3e57048ae66059894162225c621591af897"
+hash = "97ffe54d7f5294fe6c8b529f51ef4b208b3ab1a7"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4422270
+file-id = 4610048
 project-id = 452046
