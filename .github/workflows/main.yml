@@ -15,7 +15,7 @@ jobs:
       - run: curl -Lo /usr/local/bin/-i https://raw.githubusercontent.com/pixelcmtd/-i/daddy/-i
       - run: chmod +x /usr/local/bin/-i
       - run: just
-      - run: just --evaluate | sed 's/ *:= */=/;s/"//' >> $GITHUB_ENV
+      - run: just --evaluate | sed 's/ *:= */=/;s/"//g' >> $GITHUB_ENV
       - uses: actions/upload-artifact@v3
         with:
           path: ${{ env.name }}-${{ env.version }}.mrpack
