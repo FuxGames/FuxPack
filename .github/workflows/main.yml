@@ -18,9 +18,11 @@ jobs:
       - run: just --evaluate | sed 's/ *:= */=/;s/"//g' >> $GITHUB_ENV
       - uses: actions/upload-artifact@v3
         with:
+          name: ${{ env.name }}-${{ env.version }}.mrpack
           path: ${{ env.name }}-${{ env.version }}.mrpack
           if-no-files-found: error
       - uses: actions/upload-artifact@v3
         with:
+          name: ${{ env.name }}AU ${{ env.branch }}.zip
           path: ${{ env.name }}AU ${{ env.branch }}.zip
           if-no-files-found: error
