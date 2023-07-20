@@ -2,6 +2,7 @@ name := `grep ^name pack.toml | cut -d\  -f3 | tr -d \"`
 version := `grep ^version pack.toml | cut -d\  -f3 | tr -d \"`
 minecraft := `grep ^minecraft pack.toml | cut -d\  -f3 | tr -d \"`
 fabric := `grep ^fabric pack.toml | cut -d\  -f3 | tr -d \"`
+branch := `git branch --show-current`
 
 dir := `mktemp -d`
 
@@ -18,11 +19,11 @@ modrinth: splash
         packwiz modrinth export
 
 autoupdate: splash
-        mkdir -p {{dir}}/{{name}}AU/.minecraft
-        sed "s/%name/{{name}}/" instance.au.cfg > {{dir}}/{{name}}AU/instance.cfg
-        sed "s/%minecraft/{{minecraft}}/" mmc-pack.json | sed "s/%fabric/{{fabric}}/" > {{dir}}/{{name}}AU/mmc-pack.json
-        curl -Lo {{dir}}/{{name}}AU/.minecraft/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
-        home=`pwd` && cd {{dir}} && rm -f $home/{{name}}AU.zip && zip -X9r $home/{{name}}AU.zip {{name}}AU
+        mkdir -p "{{dir}}/{{name}}AU {{branch}}/.minecraft"
+        sed "s/%name/{{name}} {{branch}}/;s/%url/https:\/\/raw.githubusercontent.com\/FuxGames\/FuxPack\/{{branch}}\/pack.toml/" instance.au.cfg > "{{dir}}/{{name}}AU {{branch}}/instance.cfg"
+        sed "s/%minecraft/{{minecraft}}/;s/%fabric/{{fabric}}/" mmc-pack.json > "{{dir}}/{{name}}AU {{branch}}/mmc-pack.json"
+        curl -Lo "{{dir}}/{{name}}AU {{branch}}/.minecraft/packwiz-installer-bootstrap.jar" https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
+        home=`pwd` && cd {{dir}} && rm -f "$home/{{name}}AU {{branch}}.zip" && zip -X9r "$home/{{name}}AU {{branch}}.zip" "{{name}}AU {{branch}}"
 
 clean:
         rm -f *.zip *.mrpack
