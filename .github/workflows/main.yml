@@ -15,11 +15,12 @@ jobs:
       - run: curl -Lo /usr/local/bin/-i https://raw.githubusercontent.com/pixelcmtd/-i/daddy/-i
       - run: chmod +x /usr/local/bin/-i
       - run: just
+      - run: just --evaluate | sed 's/ *:= */=/' >> $GITHUB_ENV
       - uses: actions/upload-artifact@v3
         with:
-          name: FuxPack.mrpack
-          path: FuxPack-*.mrpack
+          path: ${{ env.name }}-${{ env.version }}.mrpack
+          if-no-files-found: error
       - uses: actions/upload-artifact@v3
         with:
-          name: FuxPackAU.zip
-          path: FuxPackAU.zip
+          path: ${{ env.name }}AU ${{ env.branch }}.zip
+          if-no-files-found: error
